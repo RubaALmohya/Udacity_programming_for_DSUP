@@ -1,6 +1,3 @@
-
-
-
 import time
 import pandas as pd
 import numpy as np
@@ -13,7 +10,7 @@ from tabulate import tabulate
 def get_filters():
    
 
-    print('Welcome to US bikeshare sharing data :)')
+    print('Welcome to US bikeshare sharing data project ')
     
     while True:
         city = input("\n Which city would you like to filter by?  New York City, Chicago or Washington?\n")
