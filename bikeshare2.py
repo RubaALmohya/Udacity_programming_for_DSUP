@@ -50,7 +50,11 @@ def get_filters():
     print('-'*40)
     return city, month, day
 
+<<<<<<< HEAD
 
+=======
+print('\n------------------------------------------------------------------\n')
+>>>>>>> refactoring
 def load_data(city, month, day):
  
     CITY_DATA  = filedialog.askopenfilename(initialdir="C:/", title="select file",filetypes=(("CSV Files","*.csv"), ("all files", "*.*")))
@@ -77,6 +81,10 @@ def load_data(city, month, day):
         df = df[df['day_of_week'] == day.title()]
 
     return df
+<<<<<<< HEAD
+=======
+print('\n------------------------------------------------------------------\n')
+>>>>>>> refactoring
 
 def time_stats(df):
    
