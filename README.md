@@ -15,53 +15,35 @@ Statistics Computed
 You will learn about bike share use in Chicago, New York City, and Washington by computing a variety of descriptive statistics. In this project, you'll write code to provide the following information:
 
 #1 Popular times of travel (i.e., occurs most often in the start time)
-most common month
-most common day of week
-most common hour of day
+* most common month
+* most common day of week
+* most common hour of day
 
 #2 Popular stations and trip
-most common start station
-most common end station
-most common trip from start to end (i.e., most frequent combination of start station and end station)
+* most common start station
+* most common trip from start to end (i.e., most frequent combination of start station and end station)
+
+
 #3 Trip duration
+* total travel time
+* average travel time
 
-total travel time
-average travel time
 #4 User info
+* counts of each user type
+* counts of each gender (only available for NYC and Chicago)
+* earliest, most recent, most common year of birth (only available for NYC and Chicago)
 
-Statistics Computed
-You will learn about bike share use in Chicago, New York City, and Washington by computing a variety of descriptive statistics. In this project, you'll write code to provide the following information:
-
-<h3>#1 Popular times of travel (i.e., occurs most often in the start time)</h3>
-
->most common month
->most common day of week
->most common hour of day
-
-<h3>#2 Popular stations and trip</h3>
-
->most common start station
->most common end station
->most common trip from start to end (i.e., most frequent combination of start station and end station)
-
-<h3>#3 Trip duration</h3>
->total travel time
->average travel time
-
-<h3> #4 User info </h3>
->counts of each user type
->counts of each gender (only available for NYC and Chicago)
->earliest, most recent, most common year of birth (only available for NYC and Chicago)
 
 
 
 Files used
 In that project we used 3 csv files:
 
+1. washington.csv
+2. new_york_city.csv
+3. chicago.csv
 
->washington.csv
->new_york_city.csv
->chicago.csv
+
 
 roject Submission : 
 
