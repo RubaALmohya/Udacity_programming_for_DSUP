@@ -1,10 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[80]:
-
-
-
 import time
 import pandas as pd
 import numpy as np
@@ -17,7 +10,7 @@ from tabulate import tabulate
 def get_filters():
    
 
-    print('Welcome to US bikeshare sharing data :)')
+    print('Welcome to US bikeshare sharing data project ')
     
     while True:
         city = input("\n Which city would you like to filter by?  New York City, Chicago or Washington?\n")
@@ -57,7 +50,7 @@ def get_filters():
     print('-'*40)
     return city, month, day
 
-
+print('\n------------------------------------------------------------------\n')
 def load_data(city, month, day):
  
     CITY_DATA  = filedialog.askopenfilename(initialdir="C:/", title="select file",filetypes=(("CSV Files","*.csv"), ("all files", "*.*")))
@@ -84,10 +77,11 @@ def load_data(city, month, day):
         df = df[df['day_of_week'] == day.title()]
 
     return df
+print('\n------------------------------------------------------------------\n')
 
 def time_stats(df):
    
-    print('\n------------------------------------------------------------------\n')
+
     print('\nCalculating The Most Frequent Times of Travel...\n')
     start_time = time.time()
 
@@ -122,7 +116,7 @@ def time_stats(df):
     
     
 
-print('\n------------------------------------------------------------------\n')
+print("Displays statistics on the most popular stations and trip")
 
 def station_stats(df):
     """Displays statistics on the most popular stations and trip."""
@@ -284,9 +278,6 @@ if __name__ == "__main__":
 
 
 
-
-
-# In[ ]:
 
 
 
