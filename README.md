@@ -29,7 +29,7 @@ You will learn about bike share use in Chicago, New York City, and Washington by
 >total travel time
 >average travel time
 
-#4 User info
+<h3> #4 User info </h3>
 
 counts of each user type
 counts of each gender (only available for NYC and Chicago)
